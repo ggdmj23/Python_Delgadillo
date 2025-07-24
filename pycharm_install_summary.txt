@@ -1,0 +1,24 @@
+PyCharm Installation Summary (Linux Mint Cinnamon)
+
+1. Open terminal and go to Downloads folder:
+   cd ~/Downloads
+
+2. Download JetBrains Toolbox:
+   wget -O jetbrains-toolbox.tar.gz "https://data.services.jetbrains.com/products/download?platform=linux&code=TBA"
+
+3. Extract the archive:
+   tar -xzf jetbrains-toolbox.tar.gz
+
+4. Navigate into the extracted folder:
+   cd jetbrains-toolbox-*/
+
+5. Go into the 'bin' directory:
+   cd bin
+
+6. Make the toolbox executable:
+   chmod +x jetbrains-toolbox
+
+7. Launch the toolbox:
+   ./jetbrains-toolbox
+
+8. Accept the user agreement and install PyCharm via the Toolbox GUI.
