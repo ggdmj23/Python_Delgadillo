@@ -12,3 +12,7 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Instructions text files
+venv.txt
+pycharm_install_summary.txt
