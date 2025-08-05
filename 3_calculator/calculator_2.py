@@ -31,7 +31,10 @@ def perform_math():
             if previous == 0:
                 previous = simple_eval(equation)
             else:
-                previous = simple_eval(str(previous) + equation)
+                if equation and equation[0] in '+-*/':
+                    previous = simple_eval(str(previous) + equation)
+                else:
+                    previous = simple_eval(equation)
             print("= ", str(previous))
         except Exception as e:
             print("[ERROR]: Invalid input →", e)
